@@ -8,4 +8,5 @@ def oxford_comma(array)
     last=a2.pop
     s=a2.join(", ")
     s+= ", and #{last}"
+  end
 end
