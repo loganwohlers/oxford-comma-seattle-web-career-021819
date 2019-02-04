@@ -1,5 +1,6 @@
 def oxford_comma(array)
   a2=array
-  a2.pop
-  s=array.join(", ")
+  last=a2.pop
+  s=a2.join(", ")
+  s+= "and #{last}"
 end
